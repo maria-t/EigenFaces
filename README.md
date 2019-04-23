@@ -6,6 +6,7 @@ The implementation shows as images:
 * the eigenfaces corresponding to the 10 largest eigenvalues
 * the eigenfaces corresponding to the 10 smallest eigenvalues
 
+Weight vectors of training faces and query images are computed.
 Recognition is performed by computing the Mahalanobis distance.
 
 ### Requirements
