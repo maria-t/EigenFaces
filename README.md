@@ -1,12 +1,12 @@
 # EigenFaces
 Testing eigenface recognition, using the images form the FERET face database.
 
-The implementation shows as images:
+The implementation computes:
 * the average face
 * the eigenfaces corresponding to the 10 largest eigenvalues
 * the eigenfaces corresponding to the 10 smallest eigenvalues
+* weight vectors of training faces and query images 
 
-Weight vectors of training faces and query images are computed.
 Recognition is performed by computing the Mahalanobis distance.
 
 ### Requirements
